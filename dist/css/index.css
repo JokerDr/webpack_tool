@@ -1,0 +1,23 @@
+/*! ——————author： 袁庆龙—————— */
+.div1 {
+  height: 200px;
+  width: 200px;
+  background-image: url(http://127.0.0.1:8081/images/514c00254575cdeaa22da1f4166360cf.jpg);
+  background-size: contain;
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+
+.div2 {
+  height: 200px;
+  width: 200px;
+}
+
+.div3 {
+  height: 0;
+  width: 0;
+  border-bottom: 100px solid red;
+  /* background: red; */
+  border-right: 100px solid transparent;
+  border-left: 100px solid transparent;
+}

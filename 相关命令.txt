@@ -1,0 +1,4 @@
+// 开发环境  --save-dev
+//生产环境  --save
+//安装全部项目依赖包 npm install
+//安装生产环境依赖包 npm install --production
