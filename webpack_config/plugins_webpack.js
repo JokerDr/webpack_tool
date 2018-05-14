@@ -14,7 +14,7 @@ const plugins = [
         hash: true,
         template: './src/index.html'
     }),
-    new ExtractTextPlugin('css/index.css'), //配置css在dist的生成目录
+    new ExtractTextPlugin('assets/css/index.css'), //配置css在dist的生成目录
     // new UglifyJSPlugin()   //js压缩
     new PurifyCSSPlugin({
         paths: glob.sync(path.join(__dirname, '../src/*.html'))

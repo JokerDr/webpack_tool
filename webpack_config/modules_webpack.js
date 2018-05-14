@@ -21,7 +21,7 @@ const modules = {
                 loader: 'url-loader',
                 options: {
                     limit: 500, //单位是b，小于该设定长度就会转换成base64编码保存在css中，大于就会单独的生成一个文件
-                    outputPath: 'images/'
+                    outputPath: 'assets/images/' //输出路径，dist下的assets/images/
                 }
             }]
         },

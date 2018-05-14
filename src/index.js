@@ -1,5 +1,5 @@
-import css from './css/index.css';
-import sass from './css/common.scss';
+import css from './assets/css/index.css';
+import sass from './assets/css/common.scss';
 let json  = require('./author.json') //读取json
 // import $ from 'jquery' 第一种方式引入类库
 // var oDiv1 = document.getElementsByName('.div1');
